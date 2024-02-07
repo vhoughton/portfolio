@@ -1,0 +1,192 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1rem;
+  color: #000;
+}
+
+.header nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #000;
+}
+
+.hero {
+  text-align: left;
+  padding: 50px 40px;
+  background-color: #fff;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #000;
+  font-size: 48px;
+}
+
+.hero p {
+  color: #666;
+}
+
+
+.hero img {
+  max-width: 1200px;
+  height: auto;
+  display: block; /* ensures no extra space below the image */
+}
+
+
+.content {
+  text-align: left;
+  padding: 16px 40px;
+  background-color: #fff;
+}
+
+.content h1 {
+  margin: 0;
+  color: #000;
+  font-size: 48px;
+}
+
+.content p {
+  color: #666;
+  max-width: 700px;
+  line-height: 175%;
+}
+
+.content-quote {
+  color: #4100FA;
+  max-width: 700px;
+  line-height: 175%;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.content img {
+  max-width: 1200px;
+  height: auto;
+  display: block; /* ensures no extra space below the image */
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.project {
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 8px;
+  max-width: 1200px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  display: block; /* ensures no extra space below the image */
+}
+
+.project-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.project-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.project-details {
+  font-size: 14px;
+  color: #666;
+  line-height: 175%;
+}
+
+.project h2, .project-details {
+  white-space: nowrap;
+}
+
+.project p {
+  color: #666;
+  line-height: 175%;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+  .header {
+    padding: 30px 20px;
+  }
+
+  .hero {
+    padding: 30px 20px;
+  }
+
+  .projects-grid {
+    padding: 0 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .content{
+    padding: 30px 20px;
+  }
+}
+
+/* Desktop viewports */
+@media (min-width: 600px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Three-column text layout */
+.text-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+  gap: 20px; /* Space between columns */
+  padding: 0 40px; /* Consistent padding with the rest of the layout */
+  max-width: 1200px;
+}
+
+.text-columns-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+  gap: 20px; /* Space between columns */
+  padding: 0 40px; /* Consistent padding with the rest of the layout */
+  max-width: 1200px;
+}
+
+.text-columns-four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates four columns */
+  gap: 20px; /* Space between columns */
+  padding: 0 40px; /* Consistent padding with the rest of the layout */
+  max-width: 1200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .text-columns, .text-columns-two {
+    grid-template-columns: 1fr; /* Stacks columns on top of each other on mobile */
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+}
