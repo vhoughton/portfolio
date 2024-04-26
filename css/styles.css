@@ -25,7 +25,6 @@ body {
 }
 
 .hero {
-  text-align: left;
   padding: 50px 40px;
   background-color: #fff;
 }
@@ -40,18 +39,18 @@ body {
   color: #666;
 }
 
-
 .hero img {
-  max-width: 1200px;
+  max-width: 100%;
   height: auto;
-  display: block; /* ensures no extra space below the image */
+  display: block;
 }
 
-
 .content {
-  text-align: left;
-  padding: 16px 40px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px 0;
   background-color: #fff;
+  text-align: left;
 }
 
 .content h1 {
@@ -62,22 +61,28 @@ body {
 
 .content p {
   color: #666;
-  max-width: 700px;
   line-height: 175%;
 }
 
 .content-quote {
   color: #4100FA;
-  max-width: 700px;
   line-height: 175%;
   font-style: italic;
   font-weight: 800;
 }
 
 .content img {
-  max-width: 1200px;
+  max-width: 100%;
   height: auto;
-  display: block; /* ensures no extra space below the image */
+  display: block;
+}
+
+.content img.img-75 {
+  width: 75%;
+}
+
+.content img.img-50 {
+  width: 50%;
 }
 
 .projects-grid {
@@ -97,7 +102,7 @@ body {
 .project img {
   width: 100%;
   height: auto;
-  display: block; /* ensures no extra space below the image */
+  display: block;
 }
 
 .project-header {
@@ -119,7 +124,8 @@ body {
   line-height: 175%;
 }
 
-.project h2, .project-details {
+.project h2,
+.project-details {
   white-space: nowrap;
 }
 
@@ -146,7 +152,7 @@ body {
     font-size: 36px;
   }
 
-  .content{
+  .content {
     padding: 30px 20px;
   }
 }
@@ -161,32 +167,44 @@ body {
 /* Three-column text layout */
 .text-columns {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Creates three columns */
-  gap: 20px; /* Space between columns */
-  padding: 0 40px; /* Consistent padding with the rest of the layout */
+  grid-template-columns: repeat(3, 1fr);
+  /* Creates three columns */
+  gap: 20px;
+  /* Space between columns */
+  padding: 0 40px;
+  /* Consistent padding with the rest of the layout */
   max-width: 1200px;
 }
 
 .text-columns-two {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Creates two columns */
-  gap: 20px; /* Space between columns */
-  padding: 0 40px; /* Consistent padding with the rest of the layout */
+  grid-template-columns: repeat(2, 1fr);
+  /* Creates two columns */
+  gap: 20px;
+  /* Space between columns */
+  padding: 0 40px;
+  /* Consistent padding with the rest of the layout */
   max-width: 1200px;
 }
 
 .text-columns-four {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Creates four columns */
-  gap: 20px; /* Space between columns */
-  padding: 0 40px; /* Consistent padding with the rest of the layout */
+  grid-template-columns: repeat(4, 1fr);
+  /* Creates four columns */
+  gap: 20px;
+  /* Space between columns */
+  padding: 0 40px;
+  /* Consistent padding with the rest of the layout */
   max-width: 1200px;
 }
 
 /* Responsive adjustments */
 @media (max-width: 500px) {
-  .text-columns, .text-columns-two {
-    grid-template-columns: 1fr; /* Stacks columns on top of each other on mobile */
-    padding: 0 20px; /* Adjust padding for smaller screens */
+  .text-columns,
+  .text-columns-two {
+    grid-template-columns: 1fr;
+    /* Stacks columns on top of each other on mobile */
+    padding: 0 20px;
+    /* Adjust padding for smaller screens */
   }
 }
