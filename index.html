@@ -20,7 +20,7 @@
     </nav>
 </div>
 
-  <p id="p1">designer, researcher and sense-maker</p>
+<p id="p1">designer, researcher and sense-maker</p>
   <p><a href="#" id="p2Link">what does that mean?</a></p>
   <p id="p3" class="hidden">well, think of something you tried to do in the last week, month or year, that was particularly painful. <br><br>travelling by train <br><br>claiming on insurance <br><br>buying a house <br><br>my work is all about discovering why it was so painful, by talking to you, and testing out a bunch of ways to make it better.</p>
   <p><a href="#" id="p4Link" class="hidden">what sorts of projects interest you?</a></p>
@@ -41,6 +41,9 @@
       p2Link.classList.add('hidden');
       p3.classList.remove('hidden');
       p4Link.classList.remove('hidden');
+      p5.classList.add('hidden');
+      p6Link.classList.add('hidden');
+      p7.classList.add('hidden');
     });
 
     p4Link.addEventListener('click', function(event) {
@@ -48,12 +51,17 @@
       p4Link.classList.add('hidden');
       p5.classList.remove('hidden');
       p6Link.classList.remove('hidden');
+      p3.classList.add('hidden');
+      p7.classList.add('hidden');
     });
 
     p6Link.addEventListener('click', function(event) {
       event.preventDefault();
       p6Link.classList.add('hidden');
       p7.classList.remove('hidden');
+      p3.classList.add('hidden');
+      p4Link.classList.add('hidden');
+      p5.classList.add('hidden');
     });
   </script>
 </body>
