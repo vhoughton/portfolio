@@ -27,17 +27,18 @@
 
 <p>I design products and services.</p>
 <p><a href="#" id="whatDoesItMean">What does that mean?</a></p>
-<p id="description">
-  When I say "I design products and services," it means that I create and develop various types of products and services for businesses or individuals. This could include physical products such as consumer goods, electronics, or home appliances, as well as digital products like software applications, websites, or mobile apps. It could also involve designing services like consulting, financial services, or healthcare services. The design process typically involves understanding user needs, researching the market, generating ideas, prototyping, testing, and iterating until the final product or service is ready for launch.
-</p>
+<div id="descriptionContainer"></div>
 
 <script>
   const whatDoesItMeanLink = document.getElementById('whatDoesItMean');
-  const descriptionParagraph = document.getElementById('description');
+  const descriptionContainer = document.getElementById('descriptionContainer');
 
   whatDoesItMeanLink.addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the link from navigating to a new page
-    descriptionParagraph.style.display = 'block'; // Show the description paragraph
+    const descriptionParagraph = document.createElement('p');
+    descriptionParagraph.id = 'description';
+    descriptionParagraph.textContent = 'When I say "I design products and services," it means that I create and develop various types of products and services for businesses or individuals. This could include physical products such as consumer goods, electronics, or home appliances, as well as digital products like software applications, websites, or mobile apps. It could also involve designing services like consulting, financial services, or healthcare services. The design process typically involves understanding user needs, researching the market, generating ideas, prototyping, testing, and iterating until the final product or service is ready for launch.';
+    descriptionContainer.appendChild(descriptionParagraph);
     whatDoesItMeanLink.style.display = 'none'; // Hide the "What does that mean?" link
   });
 </script>
