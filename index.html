@@ -20,28 +20,44 @@
     </nav>
 </div>
 
-<div class="hero">
-    <h1>Vicky Houghton - Price</h1>
-    <p> </p>
-</div>
+  <p id="p1">designer, researcher and sense-maker</p>
+  <p><a href="#" id="p2Link">what does that mean?</a></p>
+  <p id="p3" class="hidden">well, think of something you tried to do in the last week, month or year, that was particularly painful. <br><br>travelling by train <br><br>claiming on insurance <br><br>buying a house <br><br>my work is all about discovering why it was so painful, by talking to you, and testing out a bunch of ways to make it better.</p>
+  <p><a href="#" id="p4Link" class="hidden">what sorts of projects interest you?</a></p>
+  <p id="p5" class="hidden">i'm drawn to work that makes services, products and policies, fairer and kinder. the work I've been most proud of does just that, by helping people: <br><br>find missing family <br><br>settle as a refugee in a new country <br><br>plan for what happens when they die <br><br>to make things better, that often means looking at digital solutions and guiding organisations down the tricky path of digital transformation, or looking forward to how we can use new technologies. But sometimes it's less about forms and apps, and more about people, places and culture. <br><br>the kind of design I'm interested in takes in that full picture. by taking that bigger picture, we all have a better shot at solving the bigger issues of climate, loneliness, housing and migration, to name a few.</p>
+  <p><a href="#" id="p6Link" class="hidden">sounds cute, but what do you actually do on a day-to-day?</a></p>
+  <p id="p7" class="hidden">you sound like my mum, but fair point. <br><br>design is my primary discipline, but my skills fall into 3 broad categories. as time goes on, i find myself doing more of the third category, but enjoy it all. <br><br>designing <br><br>coming up with ideas <br>prototyping and iterating designs <br>using design best practices <br>meeting accessibility standards <br>writing good content <br>designing through to delivery <br><br>researching <br><br>planning research <br>interviewing with compassion <br>usability testing <br>synthesising findings <br>sharing insights <br>influencing decision making <br><br>planning and sensemaking <br><br>facilitating workshops <br>defining value props. and policy <br>strategy and planning <br>coaching and managing teams <br>roadmapping storytelling and presenting <br><br>i also have a (not so) secret dream to cater for a cosy retreat on a mountaintop somewhere. big sharing dishes of tasty food, and afternoon slices of cake. one day, maybe.</p>
 
-<p>I design products and services.</p>
-<p><a href="#" id="whatDoesItMean">What does that mean?</a></p>
-<div id="descriptionContainer"></div>
+  <script>
+    const p2Link = document.getElementById('p2Link');
+    const p3 = document.getElementById('p3');
+    const p4Link = document.getElementById('p4Link');
+    const p5 = document.getElementById('p5');
+    const p6Link = document.getElementById('p6Link');
+    const p7 = document.getElementById('p7');
 
-<script>
-  const whatDoesItMeanLink = document.getElementById('whatDoesItMean');
-  const descriptionContainer = document.getElementById('descriptionContainer');
+    p2Link.addEventListener('click', function(event) {
+      event.preventDefault();
+      p2Link.classList.add('hidden');
+      p3.classList.remove('hidden');
+      p4Link.classList.remove('hidden');
+    });
 
-  whatDoesItMeanLink.addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent the link from navigating to a new page
-    const descriptionParagraph = document.createElement('p');
-    descriptionParagraph.id = 'description';
-    descriptionParagraph.textContent = 'When I say "I design products and services," it means that I create and develop various types of products and services for businesses or individuals. This could include physical products such as consumer goods, electronics, or home appliances, as well as digital products like software applications, websites, or mobile apps. It could also involve designing services like consulting, financial services, or healthcare services. The design process typically involves understanding user needs, researching the market, generating ideas, prototyping, testing, and iterating until the final product or service is ready for launch.';
-    descriptionContainer.appendChild(descriptionParagraph);
-    whatDoesItMeanLink.style.display = 'none'; // Hide the "What does that mean?" link
-  });
-</script>
+    p4Link.addEventListener('click', function(event) {
+      event.preventDefault();
+      p4Link.classList.add('hidden');
+      p5.classList.remove('hidden');
+      p6Link.classList.remove('hidden');
+    });
+
+    p6Link.addEventListener('click', function(event) {
+      event.preventDefault();
+      p6Link.classList.add('hidden');
+      p7.classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>
 
 </body>
 </html>
