@@ -8,24 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <title>Work - Vicky Houghton-Price</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script>
-        // Get references to the link and explanation div
-        const toggleLink = document.getElementById('toggle-link');
-        const explanation = document.getElementById('explanation');
-    
-        // Add a click event listener to the link
-        toggleLink.addEventListener('click', function(event) {
-          // Prevent the default link behavior (reloading the page)
-          event.preventDefault();
-    
-          // Toggle the visibility of the explanation div
-          if (explanation.style.display === 'none') {
-            explanation.style.display = 'block';
-          } else {
-            explanation.style.display = 'none';
-          }
-        });
-      </script>
 </head>
 <body>
 
@@ -43,11 +25,22 @@
     <p> </p>
 </div>
 
-<p>I'm design products and services</p>
-  <a href="#" id="toggle-link">but what does that mean?</a>
-  <div id="explanation" style="display: none;">
-    <!-- Explanatory text goes here -->
-    <p>Designing products and services involves creating solutions that meet the needs and desires of users or customers. This process typically involves research, ideation, prototyping, and testing to develop products or services that are user-friendly, functional, and visually appealing.</p>
-  </div>
+<p>I design products and services.</p>
+<p><a href="#" id="whatDoesItMean">What does that mean?</a></p>
+<p id="description">
+  When I say "I design products and services," it means that I create and develop various types of products and services for businesses or individuals. This could include physical products such as consumer goods, electronics, or home appliances, as well as digital products like software applications, websites, or mobile apps. It could also involve designing services like consulting, financial services, or healthcare services. The design process typically involves understanding user needs, researching the market, generating ideas, prototyping, testing, and iterating until the final product or service is ready for launch.
+</p>
+
+<script>
+  const whatDoesItMeanLink = document.getElementById('whatDoesItMean');
+  const descriptionParagraph = document.getElementById('description');
+
+  whatDoesItMeanLink.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the link from navigating to a new page
+    descriptionParagraph.style.display = 'block'; // Show the description paragraph
+    whatDoesItMeanLink.style.display = 'none'; // Hide the "What does that mean?" link
+  });
+</script>
 
 </body>
+</html>
