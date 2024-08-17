@@ -73,11 +73,11 @@ nav ul li a {
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 25px;
-  text-align: left;
 }
 
 .work-item {
-  padding: 20px;
+  padding: 25px;
+  text-align: left;
 }
 
 .work-item h2 {
