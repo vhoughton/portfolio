@@ -61,16 +61,17 @@ nav ul li a {
   padding: 25px;
 }
 .work-section {
-  padding: 40px 20px;
-  align-items: left;
+  padding: 40px 25px; /* Top/bottom 40px, left/right 25px */
+  background-color: #fff;
 }
 
 .work-grid {
   display: grid;
-  grid-template-columns: 1fr; /* Default to 1 column */
+  grid-template-columns: 1fr;
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 25px; /* Ensure the grid has 25px from the left */
 }
 
 .work-item {
