@@ -61,7 +61,7 @@ nav ul li a {
   padding-right: 25px;
 }
 .work-section {
-  padding: 40px 25px; /* Top/bottom 40px, left/right 25px */
+  padding: 40px 25px;
 }
 
 .work-grid {
@@ -70,7 +70,8 @@ nav ul li a {
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 25px; /* Ensure the grid has 25px from the left */
+  padding-left: 25px;
+  text-align: left;
 }
 
 .work-item {
