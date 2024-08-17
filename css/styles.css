@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 .hero {
-  padding: 60px 20px;
+  padding: 60px 25px;
   text-align: left;
   font-size: 24px;
   max-width: 765;
@@ -62,7 +62,6 @@ nav ul li a {
 }
 .work-section {
   padding: 40px 25px; /* Top/bottom 40px, left/right 25px */
-  background-color: #fff;
 }
 
 .work-grid {
