@@ -47,10 +47,14 @@ nav ul li a {
 }
 
 .hero {
-  padding: 60px 25px;
+  padding: 25px;
+}
+
+.hero-p {
   text-align: left;
   font-size: 24px;
   max-width: 765px;
+  padding-bottom: 275px;
 }
 
 .section-divider {
