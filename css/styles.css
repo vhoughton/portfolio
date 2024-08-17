@@ -1,5 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #f8f4f4;
   margin: 0;
   padding: 0;
@@ -7,18 +9,21 @@ body {
 }
 
 header {
-  padding: 20px;
-  border-bottom: 1px solid #ccc;
+  padding: 30px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav h1 {
-  font-size: 24px;
+  font-size: 18px;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -31,7 +36,7 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 nav ul li a {
@@ -41,24 +46,29 @@ nav ul li a {
 
 .hero {
   padding: 40px 20px;
-  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .hero p {
   font-size: 24px;
   margin: 0;
+  line-height: 1.5;
 }
 
 .projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 40px 20px;
-  border-top: 1px solid #ccc;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-top: 1px solid #e0e0e0;
 }
 
 .project {
-  max-width: 45%;
-  text-align: center;
+  max-width: 48%;
+  text-align: left;
 }
 
 .project img {
@@ -70,4 +80,6 @@ nav ul li a {
 h2 {
   font-size: 20px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
+
