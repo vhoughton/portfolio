@@ -20,6 +20,7 @@ header {
 
 .title {
   font-size: 24px;
+  max-width: 765px;
 }
 
 nav ul {
