@@ -1,85 +1,210 @@
 body {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #f8f4f4;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  overflow-x: hidden;
 }
 
-header {
-  padding: 30px;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-nav {
+.header {
+  background-color: #EBF1FF;
+  padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
-nav h1 {
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
+.header-title {
+  font-size: 1rem;
+  color: #0C090D;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  font-size: 14px;
-}
-
-nav ul li a {
+.header nav a {
   text-decoration: none;
-  color: #333;
+  margin-left: 20px;
+  color: #0C090D;
 }
 
 .hero {
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: left;
+  padding: 50px 40px;
+  background-color: #EBF1FF;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #0C090D;
+  font-size: 48px;
 }
 
 .hero p {
-  font-size: 24px;
-  margin: 0;
-  line-height: 1.5;
+  color: #666;
 }
 
-.projects {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px 20px;
-  max-width: 1200px;
+.hero img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content {
+  max-width: 700px;
   margin: 0 auto;
-  border-top: 1px solid #e0e0e0;
+  padding: 16px 0;
+  background-color: #EBF1FF;
+  text-align: left;
+}
+
+.content h1 {
+  margin: 0;
+  color: #0C090D;
+  font-size: 48px;
+}
+
+.content p {
+  color: #666;
+  line-height: 175%;
+}
+
+.content-quote {
+  color: #4100FA;
+  line-height: 175%;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content img.img-75 {
+  width: 75%;
+}
+
+.content img.img-50 {
+  width: 50%;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0 40px;
 }
 
 .project {
-  max-width: 48%;
+  background-color: #EBF1FF;
   text-align: left;
+  border-radius: 8px;
+  max-width: 1200px;
 }
 
 .project img {
   width: 100%;
-  border-radius: 8px;
-  margin-top: 20px;
+  height: auto;
+  display: block;
 }
 
-h2 {
-  font-size: 20px;
+.project-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
   margin-bottom: 10px;
-  font-weight: bold;
 }
 
+.project-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.project-details {
+  font-size: 14px;
+  color: #666;
+  line-height: 175%;
+}
+
+.project h2,
+.project-details {
+  white-space: nowrap;
+}
+
+.project p {
+  color: #666;
+  line-height: 175%;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+  .header {
+    padding: 30px 20px;
+  }
+
+  .hero {
+    padding: 30px 20px;
+  }
+
+  .projects-grid {
+    padding: 0 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .content {
+    padding: 30px 20px;
+  }
+}
+
+/* Desktop viewports */
+@media (min-width: 600px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Three-column text layout */
+.text-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Creates three columns */
+  gap: 20px;
+  /* Space between columns */
+  padding: 0 40px;
+  /* Consistent padding with the rest of the layout */
+  max-width: 1200px;
+}
+
+.text-columns-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Creates two columns */
+  gap: 20px;
+  /* Space between columns */
+  padding: 0 40px;
+  /* Consistent padding with the rest of the layout */
+  max-width: 1200px;
+}
+
+.text-columns-four {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Creates four columns */
+  gap: 20px;
+  /* Space between columns */
+  padding: 0 40px;
+  /* Consistent padding with the rest of the layout */
+  max-width: 1200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .text-columns,
+  .text-columns-two {
+    grid-template-columns: 1fr;
+    /* Stacks columns on top of each other on mobile */
+    padding: 0 20px;
+    /* Adjust padding for smaller screens */
+  }
+}
