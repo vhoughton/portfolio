@@ -56,7 +56,6 @@ nav ul li a {
   border-top: 1px solid #ccc;
   margin: 40px 0;
 }
-
 .work-section {
   padding: 40px 20px;
   background-color: #fff;
@@ -64,7 +63,7 @@ nav ul li a {
 
 .work-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; /* Default to 1 column */
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
@@ -93,14 +92,17 @@ nav ul li a {
   border-radius: 8px;
 }
 
+/* 2 columns for viewports 1197px and wider */
 @media (min-width: 1197px) {
   .work-grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr); 
   }
 }
 
+/* 3 columns for viewports 1926px and wider */
 @media (min-width: 1926px) {
   .work-grid {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr); 
   }
 }
+
