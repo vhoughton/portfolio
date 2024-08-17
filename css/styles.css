@@ -20,7 +20,6 @@ header {
 
 .title {
   font-size: 24px;
-  max-width: 765px;
 }
 
 nav ul {
@@ -51,7 +50,7 @@ nav ul li a {
   padding: 60px 25px;
   text-align: left;
   font-size: 24px;
-  max-width: 765;
+  max-width: 765px;
 }
 
 .section-divider {
