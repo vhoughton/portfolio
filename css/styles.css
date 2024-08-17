@@ -58,6 +58,7 @@ nav ul li a {
   border: none;
   border-top: 1px solid #525252;
   margin-top: 20px;
+  padding: 25px;
 }
 .work-section {
   padding: 40px 20px;
@@ -74,7 +75,6 @@ nav ul li a {
 
 .work-item {
   padding: 20px;
-  border-radius: 8px;
 }
 
 .work-item h2 {
