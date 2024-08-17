@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,67 +9,35 @@
     <title>Work - Vicky Houghton-Price</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+</head>
 <body>
+    <header>
+        <nav>
+            <h1>Vicky Houghton-Price</h1>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#writing">Writing</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="header">
-    <span class="header-title"> </span>
-    <nav>
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#cv">CV</a>
-    </nav>
-</div>
+    <section class="hero">
+        <p>I help organisations design better services and products through research, prototypes, strategy and facilitation.</p>
+    </section>
 
-<p id="p1">designer, researcher and sense-maker</p>
-<div id="content">
-  <p><a href="#" id="p2Link">what does that mean?</a></p>
-</div>
-
-<script>
-  const contentDiv = document.getElementById('content');
-
-  const contents = {
-    'p3': `<p id="p3">well, think of something you tried to do in the last week, month or year, that was particularly painful. <br><br>travelling by train <br><br>claiming on insurance <br><br>buying a house <br><br>my work is all about discovering why it was so painful, by talking to you, and testing out a bunch of ways to make it better.</p>
-            <p><a href="#" id="p4Link">what sorts of projects interest you?</a></p>`,
-    'p5': `<p id="p5">i'm drawn to work that makes services, products and policies, fairer and kinder. the work I've been most proud of does just that, by helping people: <br><br>find missing family <br><br>settle as a refugee in a new country <br><br>plan for what happens when they die <br><br>to make things better, that often means looking at digital solutions and guiding organisations down the tricky path of digital transformation, or looking forward to how we can use new technologies. But sometimes it's less about forms and apps, and more about people, places and culture. <br><br>the kind of design I'm interested in takes in that full picture. by taking that bigger picture, we all have a better shot at solving the bigger issues of climate, loneliness, housing and migration, to name a few.</p>
-            <p><a href="#" id="p6Link">sounds cute, but what do you actually do on a day-to-day?</a></p>`,
-    'p7': `<p id="p7">you sound like my mum, but fair point. <br><br>design is my primary discipline, but my skills fall into 3 broad categories. as time goes on, i find myself doing more of the third category, but enjoy it all. <br><br>designing <br><br>coming up with ideas <br>prototyping and iterating designs <br>using design best practices <br>meeting accessibility standards <br>writing good content <br>designing through to delivery <br><br>researching <br><br>planning research <br>interviewing with compassion <br>usability testing <br>synthesising findings <br>sharing insights <br>influencing decision making <br><br>planning and sensemaking <br><br>facilitating workshops <br>defining value props. and policy <br>strategy and planning <br>coaching and managing teams <br>roadmapping storytelling and presenting <br><br>i also have a (not so) secret dream to cater for a cosy retreat on a mountaintop somewhere. big sharing dishes of tasty food, and afternoon slices of cake. one day, maybe.</p>`
-  };
-
-  function showContent(id) {
-    const content = contents[id];
-    const linkElement = contentDiv.querySelector('a');
-
-    if (linkElement) {
-      const newContent = document.createElement('div');
-      newContent.innerHTML = content;
-      contentDiv.replaceChild(newContent, linkElement.parentNode);
-
-      const p4Link = newContent.querySelector('#p4Link');
-      const p6Link = newContent.querySelector('#p6Link');
-
-      if (p4Link) {
-        p4Link.addEventListener('click', function(event) {
-          event.preventDefault();
-          showContent('p5');
-        });
-      }
-
-      if (p6Link) {
-        p6Link.addEventListener('click', function(event) {
-          event.preventDefault();
-          showContent('p7');
-        });
-      }
-    }
-  }
-
-  const p2Link = document.getElementById('p2Link');
-  p2Link.addEventListener('click', function(event) {
-    event.preventDefault();
-    showContent('p3');
-  });
-</script>
-
+    <section class="projects">
+        <div class="project">
+            <h2>Homes for Ukraine</h2>
+            <p>I led the design of a rapid-response government service for Ukrainian refugees to find safe host families in the UK to live with.</p>
+            <img src="homes-for-ukraine.png" alt="Homes for Ukraine project">
+        </div>
+        <div class="project">
+            <h2>Farewill</h2>
+            <p>A re-design of the UKs number 1 will writing service to be more attractive, trusted and accessible to older customers.</p>
+            <img src="farewill.png" alt="Farewill project">
+        </div>
+    </section>
 </body>
 </html>
