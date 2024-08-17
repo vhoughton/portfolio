@@ -51,6 +51,7 @@ nav ul li a {
   padding: 60px 20px;
   text-align: left;
   font-size: 24px;
+  max-width: 765;
 }
 
 .section-divider {
