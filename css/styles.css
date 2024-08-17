@@ -120,6 +120,7 @@ nav ul li a {
   width: 25px;
   margin: 4px 0;
   transition: all 0.3s ease;
+  background-color: #525252;
 }
 
 @media (max-width: 768px) {
