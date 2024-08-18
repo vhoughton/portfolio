@@ -68,11 +68,10 @@ nav ul li a {
   grid-template-columns: 1fr;
   gap: 40px;
   margin: 0;
-  padding-right: 25px;
 }
 
 .work-item {
-  padding: 25px;
+  padding-right: 25px;
   text-align: left;
 }
 
