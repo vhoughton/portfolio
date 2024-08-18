@@ -55,7 +55,8 @@ nav ul li a {
 .section-divider {
   border: none;
   border-top: 1px solid #525252;
-  margin-top: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   position: relative;
   align-items: center;
 }
