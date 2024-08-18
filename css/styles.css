@@ -90,6 +90,21 @@ padding-left: 0px;}
   border-radius: 8px;
 }
 
+.section {
+  text-align: left;
+  max-width: 765px;
+}
+
+.section-title {
+    font-size: 24px;
+    max-width: 765px;
+}
+
+.section-p {
+  font-size: 16px;
+  max-width: 765px;
+}
+
 /* 2 columns for viewports 1197px and wider */
 @media (min-width: 1197px) {
   .work-grid {
