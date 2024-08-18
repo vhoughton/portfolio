@@ -60,15 +60,13 @@ nav ul li a {
   align-items: center;
 }
 .work-section {
-  text-align: left;
+  padding: 40px 25px;
 }
 
 .work-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
   padding-left: 25px;
 }
 
