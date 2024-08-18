@@ -50,20 +50,16 @@ nav ul li a {
   font-size: 24px;
   max-width: 765px;
   padding-bottom: 275px;
-  padding-left: 25px;
 }
 
 .section-divider {
   border: none;
   border-top: 1px solid #525252;
   margin-top: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
   position: relative;
   align-items: center;
 }
 .work-section {
-  padding: 40px 25px;
   text-align: left;
 }
 
