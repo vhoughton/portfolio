@@ -67,7 +67,7 @@ padding-left: 0px;}
 .work-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 72px;
+  gap: 40px;
   margin: 0;
 }
 
