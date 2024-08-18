@@ -98,7 +98,7 @@ padding-left: 0px;}
 }
 
 .section-title {
-    font-size: 24px;
+    font-size: 18px;
     max-width: 765px;
 }
 
@@ -145,7 +145,7 @@ padding-left: 0px;}
       padding: 24px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       display: none;
-      z-index: 1000;
+      z-index: 2000;
   }
 
   .hamburger {
