@@ -305,7 +305,6 @@ footer {
   display: flex;
   justify-content: flex-start; /* Align links to the left */
   align-items: center;
-  padding-top: 24px;
 }
 
 /* Footer links layout */
@@ -327,25 +326,36 @@ footer .link-style-1 {
   transition: color 0.3s ease, border 0.3s ease;
 }
 
+/* Ensuring visited links maintain the same color */
+footer .link-style-1:visited {
+  color: #000000; /* Same color as unvisited links */
+  text-decoration-color: #7451DA; /* Keep underline color the same */
+}
+
+/* Hover state */
 footer .link-style-1:hover {
   color: #7451DA; /* Change text color on hover */
 }
 
+/* Active state */
 footer .link-style-1:active {
   border: 1px solid #7451DA; /* Add border on active state */
   padding: 4px; /* Adjust padding to account for border */
   text-decoration: none; /* Remove underline when active, if desired */
 }
 
+/* Removing focus outline on click */
 footer .link-style-1:focus:not(:focus-visible) {
   outline: none; /* Remove focus outline when clicked */
   border: none;
   box-shadow: none;
 }
 
+/* Footer line styling */
 .footer-line {
   border: none;
   border-top: 1px solid #525252;
   margin-top: 24px;
 }
+
 
