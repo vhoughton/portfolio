@@ -150,21 +150,6 @@ padding-left: 0px;}
   padding-bottom: 24px;
 }
 
-.project {
-  margin: 0 auto;
-}
-
-.project-title {
-  font-size: 24px;
-  max-width: 765px;
-}
-
-.project-p {
-  font-size: 16px;
-  max-width: 644px;
-  padding-bottom: 24px;
-}
-
 
 /* 2 columns for viewports 1197px and wider */
 @media (min-width: 1197px) {
