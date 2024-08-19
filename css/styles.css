@@ -305,6 +305,7 @@ footer {
   display: flex;
   justify-content: flex-start; /* Align links to the left */
   align-items: center;
+  padding-top: 24px;
 }
 
 /* Footer links layout */
