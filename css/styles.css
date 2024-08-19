@@ -254,3 +254,46 @@ nav ul li a {
     padding: 10px 0; /* Spacing between menu items */
   }
 }
+
+footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #F9F7FF;
+  position: relative;
+  z-index: 3000;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: flex-start; /* Align links to the left */
+  align-items: center;
+}
+
+.footer-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Spacing between the links */
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #7451DA; /* Hover color to match your link styles */
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px solid #525252;
+  margin-top: 24px;
+}
