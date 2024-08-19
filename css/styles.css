@@ -1,7 +1,7 @@
 body {
   padding: 24px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: #333;
   background-color: #F9F7FF;
@@ -19,7 +19,7 @@ header {
 }
 
 .title {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 nav ul {
@@ -37,7 +37,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #333;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .header-line {
@@ -95,10 +95,10 @@ padding-left: 0px;}
 
 /* First Link Styling */
 .link-style-1 {
-  color: #525252;
+  color: #000000;
   text-decoration: underline;
   text-decoration-color: #7451DA; /* Underline color */
-  text-underline-offset: 7px; 
+  text-underline-offset: 6px; 
   border: none;
   transition: color 0.3s ease, border 0.3s ease;
 }
@@ -115,16 +115,16 @@ padding-left: 0px;}
 
 /* Second Link Styling */
 .link-style-2 {
-  color: #525252;
+  color: #000000;
   text-decoration: none; /* No underline initially */
   border: none;
   transition: color 0.3s ease, border 0.3s ease, text-decoration 0.3s ease;
 }
 
 .link-style-2:hover {
-  color: #525252; 
+  color: #000000; 
   text-decoration: underline; /* Underline on hover */
-  text-underline-offset: 7px; 
+  text-underline-offset: 6px; 
   text-decoration-color: #7451DA; /* Underline color */
 }
 
