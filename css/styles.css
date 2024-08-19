@@ -163,16 +163,24 @@ nav ul li a {
   transform: scaleX(1); /* Scale the underline to full width on hover */
 }
 
+/* Keep the active state for keyboard navigation */
 .link-style-2:active {
-  border: 1px solid #7451DA; /* Add border on active state */
-  border-radius: 0px; /* Ensure no rounding of corners */
-  padding: 4px; /* Adjust padding to account for border */
-  outline: none; /* Ensure no focus outline on click */
+  border: 1px solid #7451DA; 
+  border-radius: 0px;
+  padding: 4px; 
 }
 
-.link-style-2:focus {
-  outline: none; /* Remove focus outline when using keyboard navigation */
-  box-shadow: none; /* Ensure no box-shadow appears on focus */
+/* Remove focus outline when using a mouse click */
+.link-style-2:focus:not(:focus-visible) {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* Additional focus-visible handling for accessibility */
+.link-style-2:focus-visible {
+  border: 1px solid #7451DA; /* Retain the active border for keyboard users */
+  padding: 4px; 
 }
 
 
