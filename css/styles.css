@@ -137,6 +137,7 @@ padding-left: 0px;}
 .section {
   text-align: left;
   max-width: 765px;
+  align-content: center;
 }
 
 .section-title {
