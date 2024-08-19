@@ -201,7 +201,7 @@ nav ul li a {
 
 /* Container style for images */
 .image-container {
-  max-width: 950px; /* Maximum width for images */
+  max-width: 1050px; /* Maximum width for images */
   width: 100%; /* Full width up to max-width */
   text-align: center; /* Center the images */
   margin-bottom: 40px; /* Spacing between sections */
