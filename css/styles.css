@@ -274,7 +274,7 @@ footer {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 20px; /* Spacing between the links */
+  gap: 24px; /* Spacing between the links */
 }
 
 .footer-links li {
@@ -295,5 +295,5 @@ footer {
 .footer-line {
   border: none;
   border-top: 1px solid #525252;
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
