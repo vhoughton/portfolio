@@ -23,16 +23,26 @@ header {
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
-}
+  display: none; /* Hidden by default */
+    flex-direction: column;
+    position: fixed; /* Fix to top of the screen */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: #fff; /* White background */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    z-index: 10000; /* Ensure menu is above content */
+  }
+
+  nav ul.active {
+    display: flex; /* Show menu when active */
+  }
 
 nav ul li {
   display: inline;
-}
+  padding: 10px 0; /* Add spacing between menu items */
+  }
 
 nav ul li a {
   text-decoration: none;
