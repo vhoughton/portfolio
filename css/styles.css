@@ -155,9 +155,10 @@ padding-left: 0px;}
 
 .extended-image {
   width: 100%;
-  max-width: none; /* Override max-width if it's set globally */
-  margin-left: -10%; /* Adjust the margin to extend beyond the content */
-  margin-right: -10%;
+  max-width: 900px;
+  max-height: inherit;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 
