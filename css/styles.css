@@ -87,14 +87,14 @@ nav ul li a {
 
 .work-item p {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   max-width: 644px;
 }
 
 .work-item img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 #about {
