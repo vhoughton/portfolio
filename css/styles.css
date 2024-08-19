@@ -49,6 +49,7 @@ nav ul li a {
 .hero {
   text-align: left;
   font-size: 32px;
+  font-weight: 300px;
   max-width: 850px;
   min-height: 350;
   padding-bottom: 175px;
