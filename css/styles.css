@@ -95,6 +95,10 @@ nav ul li a {
   border-radius: 8px;
 }
 
+#about {
+  scroll-margin-top: 24px; /* Offset the scroll by 24px */
+}
+
 /* First Link Styling */
 .link-style-1 {
   color: #000000;
