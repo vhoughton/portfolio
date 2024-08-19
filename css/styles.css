@@ -92,6 +92,25 @@ padding-left: 0px;}
   border-radius: 8px;
 }
 
+/* First Link Styling */
+.link-style-1 {
+  color: #525252;
+  text-decoration: underline;
+  text-decoration-color: #7451DA; /* Underline color */
+  border: none;
+  transition: color 0.3s ease, border 0.3s ease;
+}
+
+.link-style-1:hover {
+  color: #7451DA; /* Change text color on hover */
+}
+
+.link-style-1:active {
+  border: 2px solid #7451DA; /* Add border on active state */
+  padding: 2px; /* Adjust padding to account for border */
+  border-radius: 3px; /* Optional: Add some rounding to the border */
+}
+
 .section {
   text-align: left;
   max-width: 765px;
