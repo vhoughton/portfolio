@@ -95,6 +95,7 @@ nav ul li a {
   width: 100%;
   height: auto;
   border-radius: 6px;
+  padding-bottom: 16px;
 }
 
 #about {
