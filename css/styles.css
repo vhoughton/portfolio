@@ -139,8 +139,7 @@ nav ul li a {
   position: relative; /* Needed for the ::after element to be positioned relative to the link */
   border: none;
   transition: color 0.3s ease, border 0.3s ease;
-  outline: none;
-  position: relative;
+  outline: none; /* Remove the focus outline */
 }
 
 .link-style-2::after {
@@ -165,17 +164,16 @@ nav ul li a {
 }
 
 .link-style-2:active {
-  border: 1px solid #7451DA; 
-  border-radius: 0px;
-  padding: 4px; 
+  border: 1px solid #7451DA; /* Add border on active state */
+  border-radius: 0px; /* Ensure no rounding of corners */
+  padding: 4px; /* Adjust padding to account for border */
+  outline: none; /* Ensure no focus outline on click */
 }
 
 .link-style-2:focus {
-  outline: none;
+  outline: none; /* Remove focus outline when using keyboard navigation */
+  box-shadow: none; /* Ensure no box-shadow appears on focus */
 }
-
-
-
 
 
 .section {
