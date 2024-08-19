@@ -272,7 +272,7 @@ nav ul li a {
     top: 60px;
     right: 0;
     background-color: #fff; /* White background for the menu */
-    padding: 16px 24px; /* Adjust padding for better spacing */
+    padding: 48px 24px; /* Adjust padding for better spacing */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     z-index: 2500; /* Ensure the menu is above content */
   }
