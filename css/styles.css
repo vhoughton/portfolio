@@ -151,7 +151,6 @@ padding-left: 0px;}
 }
 
 
-
 /* 2 columns for viewports 1197px and wider */
 @media (min-width: 1197px) {
   .work-grid {
@@ -164,6 +163,37 @@ padding-left: 0px;}
   .work-grid {
       grid-template-columns: repeat(3, 1fr); 
   }
+}
+
+/* General content section styling */
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 40px 20px; /* Padding for spacing around the content */
+}
+
+/* Container style for text content */
+.content-container {
+  max-width: 644px; /* Maximum width for the text content */
+  width: 100%; /* Full width up to max-width */
+  text-align: left; /* Left-align the text */
+  margin-bottom: 40px; /* Spacing between sections */
+}
+
+/* Container style for images */
+.image-container {
+  max-width: 950px; /* Maximum width for images */
+  width: 100%; /* Full width up to max-width */
+  text-align: center; /* Center the images */
+  margin-bottom: 40px; /* Spacing between sections */
+}
+
+.image-container img {
+  width: 100%; /* Responsive image within the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add a slight rounding to the image corners */
 }
 
 /* Hamburger Menu */
