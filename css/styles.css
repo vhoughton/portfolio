@@ -137,18 +137,20 @@ padding-left: 0px;}
 .section {
   text-align: left;
   max-width: 765px;
-  align-content: center;
+  margin: 0 auto;
 }
 
 .section-title {
     font-size: 24px;
     max-width: 765px;
+    margin: 0 auto;
 }
 
 .section-p {
   font-size: 16px;
   max-width: 644px;
   padding-bottom: 24px;
+  margin: 0 auto;
 }
 
 /* 2 columns for viewports 1197px and wider */
