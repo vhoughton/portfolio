@@ -7,6 +7,10 @@ body {
   background-color: #F9F7FF;
 }
 
+header, .hero, .content-section {
+  text-align: center; /* Aligns text center for all */
+  width: 100%; /* Full width */
+
 header {
   position: relative;
   z-index: 3000;
@@ -148,6 +152,25 @@ padding-left: 0px;}
   font-size: 16px;
   max-width: 644px;
   padding-bottom: 24px;
+}
+
+
+.content-section .text-content {
+  max-width: 644px; /* Maximum width for text content */
+  margin: 0 auto; /* Centering the block */
+  text-align: left; /* Text aligned to the left */
+  padding: 20px; /* Padding around the text for better readability */
+}
+
+.content-section .image-content {
+  max-width: 950px; /* Maximum width for images */
+  margin: 0 auto; /* Centering the image block */
+  text-align: center; /* Centers the image within the block */
+}
+
+.content-section img {
+  width: 100%; /* Makes the image responsive within the container */
+  height: auto; /* Maintains the aspect ratio */
 }
 
 
