@@ -136,39 +136,18 @@ padding-left: 0px;}
 
 .section {
   text-align: left;
-  max-width: 664px;
-  margin:0 auto;
+  max-width: 765px;
 }
 
 .section-title {
     font-size: 24px;
-    max-width: 664px;
-    margin: 0 auto;
+    max-width: 765px;
 }
 
 .section-p {
   font-size: 16px;
   max-width: 644px;
-  margin: 0 auto;
   padding-bottom: 24px;
-}
-
-/* New class to extend image beyond text width */
-.extended-image {
-  display: block;
-  max-width: 950px; /* Set the max width of the image */
-  width: 100%; /* Ensure image scales with the screen */
-  margin-left: calc((950px - 644px) / -2); /* Negative margin to extend the image */
-  margin-right: calc((950px - 644px) / -2); /* Same negative margin on the right */
-}
-
-@media (max-width: 950px) {
-  .extended-image {
-    margin-left: 0; /* Reset margins for smaller screens */
-    margin-right: 0;
-    max-width: 100%; /* Ensure it doesn’t exceed the screen width */
-  }
-}
 }
 
 
