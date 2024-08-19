@@ -87,8 +87,9 @@ nav ul li a {
 
 .work-item p {
   font-size: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   max-width: 644px;
+  padding-bottom: 0px;
 }
 
 .work-item img {
