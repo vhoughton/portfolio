@@ -137,17 +137,35 @@ padding-left: 0px;}
 .section {
   text-align: left;
   max-width: 765px;
+  margin:0 auto;
 }
 
 .section-title {
     font-size: 24px;
     max-width: 765px;
+    margin: 0 auto;
 }
 
 .section-p {
   font-size: 16px;
   max-width: 644px;
+  margin: 0 auto;
   padding-bottom: 24px;
+}
+
+.extended-image {
+  width: 100%;
+  max-width: none; /* Override max-width if it's set globally */
+  margin-left: -10%; /* Adjust the margin to extend beyond the content */
+  margin-right: -10%;
+}
+
+
+@media (max-width: 768px) {
+  .extended-image {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 
