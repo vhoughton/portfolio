@@ -110,6 +110,7 @@ padding-left: 0px;}
   border: 2px solid #7451DA; /* Add border on active state */
   padding: 2px; /* Adjust padding to account for border */
   border-radius: 3px; /* Optional: Add some rounding to the border */
+  text-decoration: none;
 }
 
 /* Second Link Styling */
