@@ -139,6 +139,8 @@ nav ul li a {
   position: relative; /* Needed for the ::after element to be positioned relative to the link */
   border: none;
   transition: color 0.3s ease, border 0.3s ease;
+  outline: none;
+  position: relative;
 }
 
 .link-style-2::after {
