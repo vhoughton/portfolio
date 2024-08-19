@@ -50,7 +50,7 @@ nav ul li a {
   text-align: left;
   font-size: 32px;
   max-width: 850px;
-  padding-bottom: 275px;
+  min-height: 350px;
 }
 
 .section-divider {
