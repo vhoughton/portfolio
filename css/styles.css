@@ -96,7 +96,19 @@ nav ul li a {
 }
 
 #about {
-  scroll-margin-top: 24px; /* Offset the scroll by 24px */
+  scroll-margin-top: 24px; 
+}
+
+#cv {
+  scroll-margin-top: 24px; 
+}
+
+#writing {
+  scroll-margin-top: 24px; 
+}
+
+#work {
+  scroll-margin-top: 24px; 
 }
 
 /* First Link Styling */
