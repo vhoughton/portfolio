@@ -354,28 +354,28 @@ nav ul li a {
     z-index: 3000; /* Ensure the hamburger is above the menu */
   }
 }
-
+/* General Styles for Ordered List */
 ol {
-  counter-reset: list-counter;
-  padding-left: 20px; /* Adjust padding to control spacing from the left edge */
-  margin-top: 20px; /* Adjust top margin to control spacing from previous content */
-  margin-bottom: 20px; /* Adjust bottom margin for spacing after the list */
+  counter-reset: list-counter; /* Resets custom counter for the list */
+  padding-left: 20px; /* Adds padding for the list items */
+  margin-top: 20px; /* Adds margin at the top of the list */
+  list-style: none; /* Removes the default browser list numbering */
 }
 
 ol li {
-  counter-increment: list-counter;
+  counter-increment: list-counter; /* Increments the custom counter */
   margin-bottom: 10px; /* Space between items */
   font-size: 16px; /* Font size of list items */
   line-height: 1.6; /* Line height for readability */
   position: relative; /* Needed for pseudo-element positioning */
 }
 
-ol li:before {
-  content: counter(list-counter) ".";
+ol li::before {
+  content: counter(list-counter) ". "; /* Custom content: uses the incremented counter */
   position: absolute;
   left: -20px; /* Adjust this value to move the numbers left or right */
   top: 0;
-  font-weight: bold; /* Make numbers bold */
+  font-weight: bold; /* Makes numbers bold */
   color: #333; /* Color of the numbers */
 }
 
