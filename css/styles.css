@@ -283,8 +283,14 @@ nav ul li a {
   margin-bottom: 40px; /* Spacing between sections */
 }
 
-.content-container-h2 {
-  margin-bottom: 0px;
+.content-container h2 {
+  margin-bottom: 8px; /* Reduce the space below the heading */
+  font-size: 24px;
+}
+
+.content-container p {
+  margin-top: 0; /* Remove space above the paragraph */
+  margin-bottom: 20px; /* Increase space below the paragraph to separate from next heading */
 }
 
 /* Container style for images */
