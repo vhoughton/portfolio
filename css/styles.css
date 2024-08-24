@@ -130,13 +130,14 @@ nav ul li a {
 
 .work-item h2 {
   font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
 
 .work-item p {
   font-size: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   max-width: 644px;
-  padding-bottom: 0px;
 }
 
 .work-item img {
