@@ -285,12 +285,13 @@ nav ul li a {
 
 .content-container h2 {
   margin-bottom: 8px; /* Reduce the space below the heading */
+  margin-top: 24px;
   font-size: 24px;
 }
 
 .content-container p {
-  margin-top: 0; /* Remove space above the paragraph */
-  margin-bottom: 32px; /* Increase space below the paragraph to separate from next heading */
+  margin-top: 0;
+  margin-bottom: 16px; /* Increase space below the paragraph to separate from next heading */
 }
 
 /* Container style for images */
