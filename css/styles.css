@@ -68,7 +68,6 @@ nav ul li a {
 
 .image-content img {
   width: 100%; /* Ensure image is responsive and scales with the container */
-  max-width: 100%; /* Ensure it does not exceed its container */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -80,11 +79,12 @@ nav ul li a {
   }
 
   .text-content {
-      flex: 1 1 50%; /* Allows text to grow and take up 50% of the hero section */
+      flex: 1 0 60%; /* Allows text to grow and take up 60% of the hero section */
   }
 
   .image-content {
-      flex: 1 1 50%; /* Allows image to grow and take up 50% of the hero section */
+      flex: 1 0 40%; /* Allows image to grow and take up 40% of the hero section */
+      max-width: 40%; /* Ensures image content does not exceed 40% of the page width */
   }
 }
 
