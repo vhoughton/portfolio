@@ -55,6 +55,36 @@ nav ul li a {
   padding-bottom: 175px;
 }
 
+.project-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 360px; /* Fixed height */
+  padding: 20px; /* You can adjust or remove padding if not needed */
+}
+
+.text-content, .image-content {
+  flex: 1 1 100%; /* Take full width on small screens */
+}
+
+.image-content img {
+  width: 100%; /* Ensure image is responsive and scales with the container */
+  max-width: 400px; /* Optional: max width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Query for larger screens */
+@media (min-width: 768px) {
+  .text-content, .image-content {
+      flex: 1; /* Take equal width */
+  }
+  .image-content {
+      flex: 1 0 50%; /* Take up half the space in larger screens */
+  }
+}
+
+
 .section-divider {
   border: none;
   border-top: 1px solid #525252;
