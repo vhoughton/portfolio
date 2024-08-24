@@ -59,7 +59,6 @@ nav ul li a {
   flex-direction: column; /* Stack content vertically on smaller screens */
   align-items: flex-start; /* Align items to the left */
   height: 360px; /* Fixed height */
-  padding: 20px; /* You can adjust or remove padding if not needed */
   overflow: hidden; /* Prevent overflow if image is too large */
 }
 
