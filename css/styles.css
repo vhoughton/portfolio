@@ -290,7 +290,7 @@ nav ul li a {
 
 .content-container p {
   margin-top: 0; /* Remove space above the paragraph */
-  margin-bottom: 20px; /* Increase space below the paragraph to separate from next heading */
+  margin-bottom: 32px; /* Increase space below the paragraph to separate from next heading */
 }
 
 /* Container style for images */
