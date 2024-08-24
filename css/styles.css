@@ -136,7 +136,6 @@ nav ul li a {
 
 .work-item p {
   font-size: 16px;
-  margin-bottom: 8px;
   max-width: 644px;
 }
 
@@ -282,6 +281,10 @@ nav ul li a {
   width: 100%; /* Full width up to max-width */
   text-align: left; /* Left-align the text */
   margin-bottom: 40px; /* Spacing between sections */
+}
+
+.content-container-p {
+  margin-bottom: 0px;
 }
 
 /* Container style for images */
