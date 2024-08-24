@@ -51,14 +51,15 @@ nav ul li a {
   font-size: 32px;
   font-weight: 300px;
   max-width: 850px;
-  height: 360px
+  height: 400px
 }
 
 .project-hero {
   display: flex;
+  font-size: 32px;
   flex-direction: column; /* Stack content vertically on smaller screens */
   align-items: flex-start; /* Align items to the left */
-  height: 360px; /* Fixed height */
+  height: 400px; /* Fixed height */
   overflow: hidden; /* Prevent overflow if image is too large */
 }
 
@@ -78,7 +79,8 @@ nav ul li a {
 .image-content img {
   width: auto; /* Maintain aspect ratio */
   height: 100%; /* Stretch to fill the height of the container */
-  max-width: none; /* Override any previous max-width */
+  max-width: none; 
+  margin-top: 32px;
 }
 
 /* Media Query for larger screens */
