@@ -51,38 +51,43 @@ nav ul li a {
   font-size: 32px;
   font-weight: 300px;
   max-width: 850px;
-  min-height: 350;
-  padding-bottom: 175px;
+  height: 360px
 }
 
 .project-hero {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column; /* Stack content vertically on smaller screens */
+  align-items: center; /* Center items vertically */
   height: 360px; /* Fixed height */
   padding: 20px; /* You can adjust or remove padding if not needed */
 }
 
 .text-content, .image-content {
-  flex: 1 1 100%; /* Take full width on small screens */
+  width: 100%; /* Full width on smaller screens */
 }
 
 .image-content img {
   width: 100%; /* Ensure image is responsive and scales with the container */
-  max-width: 400px; /* Optional: max width for larger screens */
+  max-width: 100%; /* Ensure it does not exceed its container */
   height: auto; /* Maintain aspect ratio */
 }
 
 /* Media Query for larger screens */
 @media (min-width: 768px) {
-  .text-content, .image-content {
-      flex: 1; /* Take equal width */
+  .project-hero {
+      flex-direction: row; /* Layout children in a row on larger screens */
+      justify-content: space-between; /* Space between the text and image */
   }
+
+  .text-content {
+      flex: 1 1 50%; /* Allows text to grow and take up 50% of the hero section */
+  }
+
   .image-content {
-      flex: 1 0 50%; /* Take up half the space in larger screens */
+      flex: 1 1 50%; /* Allows image to grow and take up 50% of the hero section */
   }
 }
+
 
 
 .section-divider {
