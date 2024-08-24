@@ -56,10 +56,10 @@ nav ul li a {
 
 .project-hero {
   display: flex;
-  font-size: 32px;
   flex-direction: column; /* Stack content vertically on smaller screens */
   align-items: flex-start; /* Align items to the left */
-  height: 400px; /* Fixed height */
+  height: 360px; /* Fixed height */
+  padding: 20px; /* You can adjust or remove padding if not needed */
   overflow: hidden; /* Prevent overflow if image is too large */
 }
 
@@ -69,7 +69,7 @@ nav ul li a {
 }
 
 .image-content {
-  width: 100%; /* Full width on smaller screens */
+  width: 100%; /* Ensure the image container takes full width on smaller screens */
   height: 100%; /* Fill the height of the hero section */
   display: flex;
   justify-content: center; /* Center the image horizontally */
@@ -77,10 +77,10 @@ nav ul li a {
 }
 
 .image-content img {
+  max-height: 100%; /* Ensures image does not exceed the height of the container */
+  max-width: 100%; /* Ensures image does not exceed the width of the container */
   width: auto; /* Maintain aspect ratio */
-  height: 100%; /* Stretch to fill the height of the container */
-  max-width: none; 
-  margin-top: 32px;
+  height: auto; /* Adjust height automatically */
 }
 
 /* Media Query for larger screens */
