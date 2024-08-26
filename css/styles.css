@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 .image-container{
-  max-height: 400px; /* Ensures image does not exceed 400px in height */
+  max-height: 100%; /* Ensures image does not exceed 400px in height */
   max-width: 100%; /* Ensures image does not exceed the width of the container */
   object-fit: contain; /* Ensures the image scales within the max-height and max-width, maintaining aspect ratio */
 }
