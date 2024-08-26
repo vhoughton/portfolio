@@ -82,6 +82,14 @@ nav ul li a {
   height: auto; /* Adjust height automatically */
 }
 
+.quote {
+  font-size: 24px; /* Set the font size to 24px */
+  color: #7451DA; /* Set the font color to #7451DA */
+  font-style: italic; /* Set the font style to italic */
+  margin: 20px 0; /* Optional: Add some margin for spacing around the quote */
+  line-height: 1.5; /* Optional: Set line height for better readability */
+}
+
 /* Media Query for larger screens */
 @media (min-width: 768px) {
   .project-hero {
