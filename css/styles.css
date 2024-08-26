@@ -76,12 +76,21 @@ nav ul li a {
 }
 
 
-.image-content img {
-  max-height: 400px; /* Ensures image does not exceed 400px in height */
-  width: auto; /* Maintain aspect ratio */
-  height: auto; /* Adjust height automatically */
-  max-width: 100%; /* Ensures image does not exceed the width of the container */
+
+.image-content {
+  max-height: 400px; /* Ensures the container does not exceed 400px */
+  overflow: hidden; /* Ensures anything outside the container is hidden */
+  display: flex; /* To align image within the container */
+  align-items: center; /* Centers image vertically */
+  justify-content: center; /* Centers image horizontally */
 }
+
+.image-content img {
+  max-height: 100%; /* Ensures image fits within the height of the container */
+  max-width: 100%; /* Ensures image does not exceed the width of the container */
+  object-fit: contain; /* Maintains aspect ratio within the container */
+}
+
 
 .quote {
   font-size: 20px; /* Set the font size to 24px */
@@ -102,14 +111,7 @@ nav ul li a {
   .text-content {
       flex: 1 0 60%; /* Allows text to grow and take up 60% of the hero section */
   }
-
-  .image-content {
-      flex: 1 0 40%; /* Allows image to grow and take up 40% of the hero section */
-      max-width: 40%; /* Ensures image content does not exceed 40% of the page width */
-  }
 }
-
-
 
 
 .section-divider {
