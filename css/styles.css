@@ -67,18 +67,11 @@ nav ul li a {
   align-self: start; /* Align text to the top of the container */
 }
 
-.image-container {
-  max-height: 400px; /* Ensures the container does not exceed 400px */
-  overflow: hidden; /* Ensures anything outside the container is hidden */
-  display: flex; /* To align image within the container */
-  align-items: center; /* Centers image vertically */
-  justify-content: center; /* Centers image horizontally */
-}
-
 .image-container img {
-  max-height: 100%; /* Ensures image fits within the height of the container */
+  max-height: 400px; /* Ensures image does not exceed 400px in height */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Adjust height automatically */
   max-width: 100%; /* Ensures image does not exceed the width of the container */
-  object-fit: contain; /* Maintains aspect ratio within the container */
 }
 
 
