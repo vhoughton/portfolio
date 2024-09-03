@@ -54,6 +54,10 @@ nav ul li a {
   height: 400px
 }
 
+.h1 {
+  font-weight: 300px
+}
+
 .project-hero {
   display: flex;
   flex-direction: column; /* Stack content vertically on smaller screens */
