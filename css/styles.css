@@ -49,13 +49,9 @@ nav ul li a {
 .hero {
   text-align: left;
   font-size: 32px;
-  font-weight: 300px;
+  font-weight: 300;
   max-width: 850px;
   height: 400px
-}
-
-.h1 {
-  font-weight: 300px
 }
 
 .project-hero {
