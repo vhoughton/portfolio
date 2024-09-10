@@ -48,18 +48,17 @@ nav ul li a {
 
 .hero {
   text-align: left;
-  font-size: 32px;
   font-weight: 300;
   max-width: 850px;
   height: 400px
 }
 
-.project-hero {
-  display: flex;
-  flex-direction: column; /* Stack content vertically on smaller screens */
-  align-items: flex-start; /* Align items to the left */
-  height: 360px; /* Fixed height */
-  overflow: hidden; /* Prevent overflow if image is too large */
+.hero h1{ 
+  font-size: 32;
+}
+
+.hero p{ 
+  font-size: 16;
 }
 
 .text-content {
