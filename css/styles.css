@@ -444,7 +444,6 @@ ol li::before {
   color: #333; /* Color of the numbers */
 }
 
-
 /* Footer container */
 footer {
   padding-bottom: 24px;
@@ -456,8 +455,9 @@ footer {
 /* Footer content layout */
 .footer-content {
   display: flex;
-  justify-content: flex-start; /* Align links to the left */
+  justify-content: space-between; /* Space between left and right links */
   align-items: center;
+  width: 100%; /* Ensure it takes the full width */
 }
 
 /* Footer links layout */
@@ -469,6 +469,12 @@ footer {
   gap: 20px; /* Spacing between the links */
 }
 
+/* Footer links aligned to the right */
+.footer-links.right {
+  justify-content: flex-end;
+  margin-left: auto; /* Pushes this list to the right */
+}
+
 /* Styling for links inside the footer */
 footer .link-style-1 {
   color: #000000; /* Text color */
@@ -478,7 +484,6 @@ footer .link-style-1 {
   border: none; /* No border by default */
   transition: color 0.3s ease, border 0.3s ease;
 }
-
 
 footer .link-style-1:visited {
   color: #000000; /* Same color as unvisited links */
@@ -499,17 +504,4 @@ footer .link-style-1:active {
 
 /* Removing focus outline on click */
 footer .link-style-1:focus:not(:focus-visible) {
-  outline: none; /* Remove focus outline when clicked */
-  border: none;
-  box-shadow: none;
-}
-
-/* Footer line styling */
-.footer-line {
-  border: none;
-  border-top: 1px solid #525252;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
 
