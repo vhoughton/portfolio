@@ -308,7 +308,7 @@ nav ul li a {
   font-size: 14px; /* Font size for captions */
   margin-top: 8px; /* 8px vertical space between image and caption */
   max-width: 100%;
-  align-content: center;
+  text-align: center;
 }
 
 
