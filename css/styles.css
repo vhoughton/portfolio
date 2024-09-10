@@ -110,17 +110,19 @@ max-width: 690px;}
 .skill-item h3 {
   font-size: 20px;
   margin-bottom: 8px;
+  margin-left: 0; /* Align header text to the left */
 }
 
 .skill-item ul {
-  padding-left: 0; /* Remove the default left padding */
   list-style-type: disc; /* Keep bullet points */
+  padding-left: 0; /* Remove default padding */
+  margin-left: 0; /* Remove default margin */
 }
 
 .skill-item li {
   font-size: 16px;
   margin-bottom: 8px;
-  padding-left: 20px; /* Align bullet points with the header */
+  padding-left: 20px; /* Add padding to the list items for bullets */
 }
 
 @media (min-width: 768px) {
@@ -128,7 +130,6 @@ max-width: 690px;}
     grid-template-columns: repeat(3, 1fr); /* 3 columns on wider screens */
   }
 }
-
 
 
 
