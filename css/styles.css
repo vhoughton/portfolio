@@ -91,13 +91,12 @@ max-width: 690px;}
 /* General styles for the skills section */
 .skills-section {
   text-align: left;
-  padding: 40px 24px;
 }
 
 .skills-title {
   font-size: 24px;
   margin-bottom: 24px;
-  text-align: center; /* Center the title */
+  text-align: left; /* Left-align the title */
 }
 
 /* Grid layout for skills section */
@@ -114,7 +113,6 @@ max-width: 690px;}
 }
 
 .skill-item ul {
-  padding-left: 20px;
   list-style-type: disc; /* Standard bullet point style */
   margin: 0;
   line-height: 1.6; /* Increase readability */
