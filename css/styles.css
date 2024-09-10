@@ -68,6 +68,14 @@ nav ul li a {
   margin-top: 0; /* Removes the default top margin of the subheading */
   margin-bottom: 20px; /* Adjust this as necessary to match your design */
 
+  .project-hero {
+    display: flex;
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    align-items: flex-start; /* Align items to the left */
+    height: 360px; /* Fixed height */
+    overflow: hidden; /* Prevent overflow if image is too large */
+  }
+  
 .text-content {
   width: 100%; /* Full width on smaller screens */
   align-self: start; /* Align text to the top of the container */
