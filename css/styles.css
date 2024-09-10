@@ -196,7 +196,7 @@ max-width: 690px;}
 .work-item img {
   width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 6px,6px,6px,6px;
   padding-bottom: 16px;
 }
 
@@ -287,6 +287,31 @@ max-width: 690px;}
 .link-style-2:focus-visible {
   border: 1px solid #7451DA; /* Retain the active border for keyboard users */
   padding: 4px; 
+}
+
+.link-style-3 {
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: #7451DA; /* Underline color */
+  text-underline-offset: 3px; 
+  border: none;
+  transition: color 0.3s ease, border 0.3s ease;
+}
+
+.link-style-3:hover {
+  color: #7451DA; /* Change text color on hover */
+}
+
+.link-style-3:active {
+  border: 1px solid #7451DA; /* Add border on active state */
+  padding: 4px; /* Adjust padding to account for border */
+  text-decoration: none;
+}
+
+.link-style-3:focus:not(:focus-visible) {
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
 
 .section {
