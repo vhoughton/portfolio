@@ -79,8 +79,8 @@ nav ul li a {
   font-size: 20px; /* Set the font size to 24px */
   color: #7451DA; /* Set the font color to #7451DA */
   font-style: italic; /* Set the font style to italic */
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 16px;
   line-height: 1.5; /* Optional: Set line height for better readability */
 }
 
@@ -302,6 +302,13 @@ nav ul li a {
   width: 100%; /* Responsive image within the container */
   height: auto; /* Maintain aspect ratio */
 }
+
+.image-caption {
+  color: #8a8a8a; /* Lighter gray for captions */
+  font-size: 14px; /* Font size for captions */
+  margin-top: 8px; /* 8px vertical space between image and caption */
+}
+
 
 /* Hamburger Menu */
 .hamburger {
