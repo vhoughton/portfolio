@@ -307,6 +307,7 @@ nav ul li a {
   color: #8a8a8a; /* Lighter gray for captions */
   font-size: 14px; /* Font size for captions */
   margin-top: 8px; /* 8px vertical space between image and caption */
+  max-width: 100%;
 }
 
 
