@@ -48,18 +48,25 @@ nav ul li a {
 
 .hero {
   text-align: left;
+  font-size: 32px;
   font-weight: 300;
   max-width: 850px;
-  height: 400px
+  height: 400px; /* You can adjust this to suit the content better */
+  margin-bottom: 40px;
 }
 
-.hero h1{ 
-  font-size: 32;
+.hero-title {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 10px; /* Adjusts space between the title and subtitle */
 }
 
-.hero p{ 
-  font-size: 16;
-}
+.hero-subtitle {
+  font-size: 14px; /* Slightly smaller size for the subheading */
+  font-weight: 400;
+  color: #6b6b6b; /* A lighter color for contrast */
+  margin-top: 0; /* Removes the default top margin of the subheading */
+  margin-bottom: 20px; /* Adjust this as necessary to match your design */
 
 .text-content {
   width: 100%; /* Full width on smaller screens */
