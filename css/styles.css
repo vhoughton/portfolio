@@ -114,7 +114,6 @@ max-width: 690px;}
 
 .skill-item ul {
   list-style-type: disc; /* Standard bullet point style */
-  margin: 0;
   line-height: 1.6; /* Increase readability */
 }
 
