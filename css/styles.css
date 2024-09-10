@@ -298,12 +298,6 @@ nav ul li a {
   margin-bottom: 40px; /* Spacing between sections */
 }
 
-.image-container img {
-  width: 100%; /* Responsive image within the container */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Optional: Add a slight rounding to the image corners */
-}
-
 /* Hamburger Menu */
 .hamburger {
   display: none;
