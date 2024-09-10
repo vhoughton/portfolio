@@ -74,7 +74,8 @@ nav ul li a {
   font-weight: 400;
   color: #6b6b6b; /* A lighter color for contrast */
   margin-top: 0; /* Removes the default top margin of the subheading */
-  margin-bottom: 20px; /* Adjust this as necessary to match your design */}
+  margin-bottom: 20px; /* Adjust this as necessary to match your design */
+max-width: 690px;}
 
 .text-content {
   width: 100%; /* Full width on smaller screens */
