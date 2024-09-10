@@ -88,6 +88,49 @@ max-width: 690px;}
   object-fit: contain; /* Ensures the image scales within the max-height and max-width, maintaining aspect ratio */
 }
 
+/* General styles for the skills section */
+.skills-section {
+  text-align: left;
+  padding: 40px 24px;
+}
+
+.skills-title {
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-align: center; /* Center the title */
+}
+
+/* Grid layout for skills section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* One column by default */
+  gap: 40px; /* Space between the items */
+}
+
+/* Each skill item (designing, researching, etc.) */
+.skill-item h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.skill-item ul {
+  padding-left: 20px;
+  list-style-type: disc; /* Standard bullet point style */
+  margin: 0;
+  line-height: 1.6; /* Increase readability */
+}
+
+.skill-item li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Media Query for wider screens (3 columns) */
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on wider screens */
+  }
+}
 
 
 .quote {
