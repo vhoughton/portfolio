@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 .hero-subtitle {
-  font-size: 14px; /* Slightly smaller size for the subheading */
+  font-size: 10px; /* Slightly smaller size for the subheading */
   font-weight: 400;
   color: #6b6b6b; /* A lighter color for contrast */
   margin-top: 0; /* Removes the default top margin of the subheading */
