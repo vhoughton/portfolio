@@ -455,7 +455,7 @@ ol {
 ol li {
   counter-increment: list-counter; /* Increments the custom counter */
   margin-bottom: 10px; /* Space between items */
-  font-size: 16px; /* Font size of list items */
+  font-size: 14px; /* Font size of list items */
   line-height: 1.6; /* Line height for readability */
   position: relative; /* Needed for pseudo-element positioning */
 }
@@ -489,7 +489,7 @@ footer {
 .footer-links {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-top: 24px;
   display: flex;
   gap: 20px; /* Spacing between the links */
 }
