@@ -70,12 +70,12 @@ nav ul li a {
 }
 
 .hero-subtitle {
-  font-size: 16px; /* Slightly smaller size for the subheading */
+  font-size: 14px; /* Slightly smaller size for the subheading */
   font-weight: 400;
   color: #6b6b6b; /* A lighter color for contrast */
   margin-top: 0; /* Removes the default top margin of the subheading */
   margin-bottom: 20px; /* Adjust this as necessary to match your design */
-max-width: 690px;}
+max-width: 600px;}
 
 .text-content {
   width: 100%; /* Full width on smaller screens */
@@ -391,6 +391,7 @@ p {
   margin-bottom: 8px; /* Increase space below the paragraph to separate from next heading */
   font-size: 14px;
   line-height: 1.7;
+  max-width: 600px;
 }
 
 /* Container style for images */
