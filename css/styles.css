@@ -492,6 +492,7 @@ footer {
   margin: 0;
   padding: 0;
   display: flex;
+  padding-left: 0px;
   gap: 20px; /* Spacing between the links */
 }
 
