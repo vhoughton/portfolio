@@ -118,7 +118,7 @@ max-width: 690px;}
 .skill-item ul {
   list-style-position: inside; /* Make sure bullets are inside the list container */
   margin: 0; /* Remove any margin from the list */
-  padding-bottom: 8px; /* Remove padding from the list */
+  padding: 0; /* Remove padding from the list */
 }
 
 .skill-item li {
