@@ -87,11 +87,11 @@ max-width: 690px;}
   font-style: italic; /* Set the font style to italic */
   padding-top: 24px;
   padding-bottom: 16px;
-  line-height: 1.5; /* Optional: Set line height for better readability */
+  line-height: 1.5; /* Line height for better readability in quotes */
 }
 
-.quote p{
-  font-size: 20px;
+.quote p {
+  font-size: 20px; /* Font size for quotes */
 }
 
 .image-container{
