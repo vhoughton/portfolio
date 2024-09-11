@@ -110,7 +110,7 @@ max-width: 690px;}
 
 /* Resetting margins and aligning content */
 .skill-item h3 {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 8px;
   margin-left: 0; /* Align header text to the left */
 }
@@ -122,7 +122,7 @@ max-width: 690px;}
 }
 
 .skill-item li {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 8px;
   padding-left: 0; /* Align list item with the heading */
 }
@@ -190,7 +190,7 @@ max-width: 690px;}
 }
 
 .work-item p {
-  font-size: 16px;
+  font-size: 14px;
   max-width: 644px;
   padding-bottom: 0px;
 }
@@ -375,7 +375,7 @@ max-width: 690px;}
 
 .content-container p {
   margin-top: 0;
-  margin-bottom: 16px; /* Increase space below the paragraph to separate from next heading */
+  margin-bottom: 8px; /* Increase space below the paragraph to separate from next heading */
 }
 
 /* Container style for images */
