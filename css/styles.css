@@ -67,6 +67,7 @@ nav ul li a {
   font-size: 32px;
   font-weight: 300;
   margin-bottom: 10px; /* Adjusts space between the title and subtitle */
+  line-height: 1.7;
 }
 
 .hero-subtitle {
