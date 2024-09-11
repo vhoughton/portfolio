@@ -377,6 +377,7 @@ max-width: 690px;}
 .content-container p {
   margin-top: 0;
   margin-bottom: 8px; /* Increase space below the paragraph to separate from next heading */
+  font-size: 14px;
 }
 
 /* Container style for images */
