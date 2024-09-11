@@ -106,20 +106,19 @@ p {
   object-fit: contain; /* Ensures the image scales within the max-height and max-width, maintaining aspect ratio */
 }
 
-/* General styles for the skills section */
 .skills-section {
   text-align: left;
   margin-top: 24px;
   margin-bottom: 16px;
   padding: 0px;
-  height: 400px; /* The height you already specified */
+  height: 400px; /* Fixed height for the section */
   
   /* Flexbox properties */
   display: flex;
-  justify-content: center; /* Optional: center horizontally if needed */
-  align-items: center; /* Vertically center the content */
-  flex-direction: column; /* Stack content vertically */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Vertically centers the content */
 }
+
 
 .skills-title {
   font-size: 24px;
