@@ -82,16 +82,22 @@ max-width: 690px;}
   align-self: start; /* Align text to the top of the container */
 }
 
+p {
+  font-size: 14px;
+  line-height: 1.7; /* Makes general paragraph text more readable */
+}
+
 .quote {
-  color: #7451DA; /* Set the font color to #7451DA */
-  font-style: italic; /* Set the font style to italic */
+  color: #7451DA;
+  font-style: italic;
   padding-top: 24px;
   padding-bottom: 16px;
-  line-height: 1.5; /* Line height for better readability in quotes */
+  line-height: 1.5;
 }
 
 .quote p {
-  font-size: 20px; /* Font size for quotes */
+  font-size: 20px; /* Larger font size for quotes */
+  margin: 0; /* Ensure consistent margin in quotes */
 }
 
 .image-container{
