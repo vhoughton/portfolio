@@ -91,6 +91,7 @@ max-width: 690px;}
 /* General styles for the skills section */
 .skills-section {
   text-align: left;
+  padding: 40px 24px;
 }
 
 .skills-title {
@@ -116,7 +117,7 @@ max-width: 690px;}
 .skill-item ul {
   list-style-position: inside; /* Make sure bullets are inside the list container */
   margin: 0; /* Remove any margin from the list */
-  padding-bottom: 16px;
+  padding: 0; /* Remove padding from the list */
 }
 
 .skill-item li {
@@ -489,7 +490,7 @@ footer {
 .footer-links {
   list-style-type: none;
   margin: 0;
-  padding-top: 24px;
+  padding: 0;
   display: flex;
   gap: 20px; /* Spacing between the links */
 }
@@ -529,4 +530,15 @@ footer .link-style-1:active {
 
 /* Removing focus outline on click */
 footer .link-style-1:focus:not(:focus-visible) {
+  outline: none; /* Remove focus outline when clicked */
+  border: none;
+  box-shadow: none;
+}
 
+/* Footer line styling */
+.footer-line {
+  border: none;
+  border-top: 1px solid #525252;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
