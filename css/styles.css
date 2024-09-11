@@ -112,7 +112,7 @@ p {
   margin-top: 24px;
   margin-bottom: 16px;
   padding: 0px;
-  height: 400px; /* Fixed height for the section */
+  min-height: 400px; /* Fixed height for the section */
   
   /* Flexbox properties */
   display: flex;
