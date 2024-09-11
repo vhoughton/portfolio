@@ -109,8 +109,10 @@ p {
 /* General styles for the skills section */
 .skills-section {
   text-align: left;
+  margin-top: 24px;
   margin-bottom: 16px;
   padding: 0px;
+  height: 400px;
 }
 
 .skills-title {
@@ -304,7 +306,6 @@ p {
 }
 
 .link-style-3 {
-  color: #000000;
   text-decoration: underline;
   text-decoration-color: #7451DA; /* Underline color */
   text-underline-offset: 3px; 
