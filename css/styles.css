@@ -112,7 +112,13 @@ p {
   margin-top: 24px;
   margin-bottom: 16px;
   padding: 0px;
-  height: 400px;
+  height: 400px; /* The height you already specified */
+  
+  /* Flexbox properties */
+  display: flex;
+  justify-content: center; /* Optional: center horizontally if needed */
+  align-items: center; /* Vertically center the content */
+  flex-direction: column; /* Stack content vertically */
 }
 
 .skills-title {
