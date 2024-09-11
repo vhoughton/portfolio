@@ -83,12 +83,15 @@ max-width: 690px;}
 }
 
 .quote {
-  font-size: 20px; /* Set the font size to 24px */
   color: #7451DA; /* Set the font color to #7451DA */
   font-style: italic; /* Set the font style to italic */
   padding-top: 24px;
   padding-bottom: 16px;
   line-height: 1.5; /* Optional: Set line height for better readability */
+}
+
+.quote p{
+  font-size: 20px;
 }
 
 .image-container{
