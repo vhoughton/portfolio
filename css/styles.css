@@ -109,8 +109,7 @@ p {
 /* General styles for the skills section */
 .skills-section {
   text-align: left;
-  padding-bottom: 24px;
-  padding-top: 24px;
+  margin-bottom: 16px;
   padding: 0px;
 }
 
