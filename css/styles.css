@@ -91,7 +91,7 @@ max-width: 690px;}
 /* General styles for the skills section */
 .skills-section {
   text-align: left;
-  padding: 40px 24px;
+  padding-top: 24px;
 }
 
 .skills-title {
