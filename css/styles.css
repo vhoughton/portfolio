@@ -91,7 +91,7 @@ max-width: 690px;}
 /* General styles for the skills section */
 .skills-section {
   text-align: left;
-  padding: 0px;
+  padding: 40px 24px;
 }
 
 .skills-title {
@@ -110,14 +110,14 @@ max-width: 690px;}
 /* Resetting margins and aligning content */
 .skill-item h3 {
   font-size: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   margin-left: 0; /* Align header text to the left */
 }
 
 .skill-item ul {
   list-style-position: inside; /* Make sure bullets are inside the list container */
   margin: 0; /* Remove any margin from the list */
-  padding-bottom: 16px;
+  padding: 0; /* Remove padding from the list */
 }
 
 .skill-item li {
@@ -131,8 +131,6 @@ max-width: 690px;}
     grid-template-columns: repeat(3, 1fr); /* 3 columns on wider screens */
   }
 }
-
-
 
 
 
