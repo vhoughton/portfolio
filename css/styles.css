@@ -306,6 +306,7 @@ p {
 }
 
 .link-style-3 {
+  color: #000000;
   text-decoration: underline;
   text-decoration-color: #7451DA; /* Underline color */
   text-underline-offset: 3px; 
@@ -328,6 +329,32 @@ p {
   border: none;
   box-shadow: none;
 }
+
+.link-style-4 {
+  color: #6b6b6b;
+  text-decoration: underline;
+  text-decoration-color: #7451DA; /* Underline color */
+  text-underline-offset: 3px; 
+  border: none;
+  transition: color 0.3s ease, border 0.3s ease;
+}
+
+.link-style-4:hover {
+  color: #7451DA; /* Change text color on hover */
+}
+
+.link-style-4:active {
+  border: 1px solid #7451DA; /* Add border on active state */
+  padding: 4px; /* Adjust padding to account for border */
+  text-decoration: none;
+}
+
+.link-style-4:focus:not(:focus-visible) {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
 
 .section {
   text-align: left;
