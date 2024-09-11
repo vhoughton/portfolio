@@ -82,6 +82,15 @@ max-width: 690px;}
   align-self: start; /* Align text to the top of the container */
 }
 
+.quote {
+  font-size: 20px; /* Set the font size to 24px */
+  color: #7451DA; /* Set the font color to #7451DA */
+  font-style: italic; /* Set the font style to italic */
+  padding-top: 24px;
+  padding-bottom: 16px;
+  line-height: 1.5; /* Optional: Set line height for better readability */
+}
+
 .image-container{
   max-height: 100%; /* Ensures image does not exceed 400px in height */
   max-width: 100%; /* Ensures image does not exceed the width of the container */
@@ -136,14 +145,7 @@ max-width: 690px;}
 
 
 
-.quote {
-  font-size: 20px; /* Set the font size to 24px */
-  color: #7451DA; /* Set the font color to #7451DA */
-  font-style: italic; /* Set the font style to italic */
-  padding-top: 24px;
-  padding-bottom: 16px;
-  line-height: 1.5; /* Optional: Set line height for better readability */
-}
+
 
 /* Media Query for larger screens */
 @media (min-width: 768px) {
